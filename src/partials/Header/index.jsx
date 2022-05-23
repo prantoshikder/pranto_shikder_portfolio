@@ -5,7 +5,6 @@ const { Content } = Layout;
 
 const headerColor = {
   background: "#071a2f",
-  color: "#fff",
 };
 
 const Header = () => {

@@ -39,7 +39,9 @@ const CopyRight = () => {
     <div className="container" style={copyRightFooterBg}>
       <div className="copy_right_footer flex content_between item_center">
         <div className="copy_right_info">
-          <Title level={5}>&copy; {moment(today).format(format)} React Developer Prantoshikder</Title>
+          <Title level={5}>
+            Copyright &copy; {moment(today).format(format)} <span style={{ color: "#ffc300" }}>Prantoshikder</span>
+          </Title>
         </div>
 
         <div className="social_media flex content_between item_center">

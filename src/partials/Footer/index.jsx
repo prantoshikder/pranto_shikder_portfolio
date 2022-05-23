@@ -1,9 +1,10 @@
 import CopyRight from "./CopyRight";
+import FooterContact from "./FooterContact";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="footer top">
+      <FooterContact />
       <CopyRight />
     </div>
   );
