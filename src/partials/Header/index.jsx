@@ -3,14 +3,14 @@ import DesktopMenu from "../../components/HeaderMenu/DesktopMenu";
 
 const { Content } = Layout;
 
-const HeaderColor = {
+const headerColor = {
   background: "#071a2f",
   color: "#fff",
 };
 
 const Header = () => {
   return (
-    <Layout className="menu_bar" style={HeaderColor}>
+    <Layout className="menu_bar" style={headerColor}>
       <Content className="container">
         <DesktopMenu />
       </Content>

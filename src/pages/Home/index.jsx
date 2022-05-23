@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-// import Footer from "../../partials/Footer";
+import Footer from "../../partials/Footer";
 import Header from "../../partials/Header";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
