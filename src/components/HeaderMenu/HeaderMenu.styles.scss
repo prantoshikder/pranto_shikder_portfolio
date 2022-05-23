@@ -1,0 +1,46 @@
+.desktop_menu_wrapper {
+  .desktop_top_logo {
+    h4 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0px;
+    }
+    span {
+      color: rgb(51, 153, 255);
+    }
+  }
+
+  .menu_tabs {
+    .ant-menu {
+      background-color: transparent;
+    }
+
+    .ant-menu-horizontal {
+      border-bottom: none;
+      padding: 10px 0;
+    }
+
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after {
+      border-bottom: none;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item a {
+      color: #fff;
+    }
+
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+      color: #fff;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+      color: rgb(51, 153, 255);
+    }
+
+    .ant-menu-horizontal > .ant-menu-item::after {
+      border-bottom: none;
+    }
+  }
+}
