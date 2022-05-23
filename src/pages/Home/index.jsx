@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-// import AboutUs from "../../components/about/AboutUs";
+import AboutUs from "../../components/about/AboutUs";
 import Footer from "../../partials/Footer";
 import Header from "../../partials/Header";
 
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* <AboutUs /> */}
+      <AboutUs />
       <Footer />
     </>
   );
